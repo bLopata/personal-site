@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import NavBar from "./components/navBar";
 
@@ -7,7 +7,7 @@ const App = () => {
     <React.Fragment>
       <NavBar />
       <div>
-        <h1>Wow!</h1>
+        <p>Welcome to my site!!</p>
       </div>
     </React.Fragment>
   );

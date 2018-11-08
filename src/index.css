@@ -12,7 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+/* 
 .navbar-nav {
-  float: left
+  float: left;
+} */
+
+.my-portfolio {
+  justify-content: right;
+  font-size: 12px;
+  margin: 0 0 20px 0;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class NavBar extends Component {
   render() {
@@ -10,18 +10,20 @@ class NavBar extends Component {
         </Link>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav m-2">
-            <a
-              className="nav-item nav-link"
-              href="https://www.github.com/bLopata"
-            >
-              <span className="fa fa-github">...</span>
-            </a>
-            <a
-              className="nav-item nav-link"
-              href="https://www.linkedin.com/in/ben-lopata-03a0a0104/"
-            >
-              LinkedIn
-            </a>
+            <ul className="my-portfolio">
+              <a
+                className="nav-item nav-link"
+                href="https://www.github.com/bLopata"
+              >
+                <i className="fa fa-github" name="github" />
+              </a>
+              <a
+                className="nav-item nav-link"
+                href="https://www.linkedin.com/in/ben-lopata-03a0a0104/"
+              >
+                <i className="fa fa-linkedin" />
+              </a>
+            </ul>
           </div>
         </div>
       </nav>
