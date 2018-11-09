@@ -1,32 +1,42 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import SideNav, {
+  Toggle,
+  Nav,
+  NavItem,
+  NavIcon,
+  NavText
+} from "@trendmicro/react-sidenav";
 
 class NavBar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" to="/">
-          See more
-        </Link>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav m-2">
-            <ul className="my-portfolio">
-              <a
-                className="nav-item nav-link"
-                href="https://www.github.com/bLopata"
-              >
-                <i className="fa fa-github" name="github" />
-              </a>
-              <a
-                className="nav-item nav-link"
-                href="https://www.linkedin.com/in/ben-lopata-03a0a0104/"
-              >
-                <i className="fa fa-linkedin" />
-              </a>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <SideNav
+        onSelect={selected => {
+          // Add your code here
+        }}
+      >
+        <SideNav.Toggle />
+        <SideNav.Nav defaultSelected="home">
+          <NavItem eventKey="home">
+            <NavIcon>
+              <i className="fa fa-fw fa-home" style={{ fontSize: "1.75em" }} />
+            </NavIcon>
+            <NavText>Home</NavText>
+          </NavItem>
+          <NavItem href="https://github.com/bLopata" eventKey="github">
+            <NavIcon>
+              <i className="fa fa-github" style={{ fontSize: "1.75em" }} />
+            </NavIcon>
+            <NavText>Github</NavText>
+          </NavItem>
+          <NavItem eventKey="linkedin">
+            <NavIcon>
+              <i className="fa fa-linkedin" style={{ fontSize: "1.75em" }} />
+            </NavIcon>
+            <NavText>Linkedin</NavText>
+          </NavItem>
+        </SideNav.Nav>
+      </SideNav>
     );
   }
 }

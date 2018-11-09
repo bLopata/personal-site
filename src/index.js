@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
+import * as serviceWorker from "./serviceWorker";
+import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 import "./index.css";
 import "font-awesome/css/font-awesome.css";
 import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <BrowserRouter>

@@ -6,9 +6,6 @@ const App = () => {
   return (
     <React.Fragment>
       <NavBar />
-      <div>
-        <p>Welcome to my site!!</p>
-      </div>
     </React.Fragment>
   );
 };
