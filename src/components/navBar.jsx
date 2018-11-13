@@ -4,8 +4,10 @@ import SideNav, {
   Nav,
   NavItem,
   NavIcon,
-  NavText
+  NavText,
+  RootComponent
 } from "@trendmicro/react-sidenav";
+import { Router, Route } from "react-router-dom";
 
 class NavBar extends Component {
   render() {
@@ -23,7 +25,11 @@ class NavBar extends Component {
             </NavIcon>
             <NavText>Home</NavText>
           </NavItem>
-          <NavItem href="https://github.com/bLopata" eventKey="github">
+          <NavItem
+            eventkey={2}
+            href="https://github.com/bLopata"
+            eventKey="github"
+          >
             <NavIcon>
               <i className="fa fa-github" style={{ fontSize: "1.75em" }} />
             </NavIcon>

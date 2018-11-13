@@ -22,3 +22,12 @@ code {
   font-size: 18px;
   margin: 0 0 20px 0;
 }
+
+.right-content {
+  position: absolute;
+  margin-left: 70px;
+}
+
+/* .page-banner {
+  font: "Georgia";
+} */
