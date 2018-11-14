@@ -1,0 +1,11 @@
+Blog post:
+Chapter 1
+
+It was an early summers evening. I was as I am most days of the week, standing at my desk in my cubicle. A days work behind me, but a problem lie ahead. Oh, how my brain enjoys problems. In talking with an acquaintance, I was inspired to accelerate my pursuit of node.js. I looked up a wonderful tutorial from a guy named [Mosh](link to channel) who was explaining that node.js was an **application** coded in C or derivative which is a backend asynchronous request handler. 
+
+I wrote a script to download scoop, a cli package handler for Windows, using Powershell with bypass. It was fantastic. This problem solving is exactly why I love computer programming. Being able to problem solve while using a computer. 
+
+
+FINALITY And I know that every time I am able to solve a problem I become a greater problem solver, a more learned algorithm. And, for me at least, that is where the truest satisfaction is found.  
+
+#octathorpe #ithinkinpsuedocode #bootstrap #vfio
