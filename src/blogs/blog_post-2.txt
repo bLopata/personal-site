@@ -1,0 +1,10 @@
+Chapter 3
+I would like to present to you this post, an ode to map. The map function, that is. map is a very useful tool for every coder to have in their arsenal. The map function is a higher-order function in many languages which can be invoked to give a one-to-one mapping of objects or primitives. For instance, in JavaScript, we can declare an array of numbers:
+
+var numbers = [2, 4, 8, 16];
+
+And then declare another array which will contain the square of the numbers in the initial array:
+
+squaredNumbers = numbers.map(x => x * x);
+
+This is, by all accounts, a simplified implementation. THe map function is 
